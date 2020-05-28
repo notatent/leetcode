@@ -8,3 +8,8 @@ leetcode record
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|[Java](src/main/java/com/mean/world/a003_lengthOfLongestSubstring/Solution.java)|66.08%|96.23%|2019-11-04|
 4|
 5|
+242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Java](src/main/java/com/mean/world/a242_validAnagram/Solution.java)|72.37%|17.42%|2020-05-28|
+
+
+
+
