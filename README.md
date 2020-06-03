@@ -11,6 +11,7 @@ leetcode record
 20|有效括号（栈）||||
 24|链表两两反转||||
 25|K个一组翻转链表||||
+141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|[Java](src/main/java/com/mean/world/a141_linkedListCycle/Solution.java)|100.00%|5.71%|2020-06-03|
 206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|Easy|[Java](src/main/java/com/mean/world/a206_reverseLinkedList/Solution.java)|100.00%|5.04%|2020-06-02|
 239|滑动窗口最大值||||
 242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Java](src/main/java/com/mean/world/a242_validAnagram/Solution.java)|72.37%|17.42%|2020-05-28|
