@@ -15,7 +15,8 @@ class Solution {
     }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        return loop(l1, l2);
+//        return loop(l1, l2);
+        return reverse(l1, l2);
     }
 
     /**
@@ -63,6 +64,28 @@ class Solution {
         //  current.next = node;
         // current = current.next;
         //}
+        return sentinelNode.next;
+    }
+
+    private ListNode reverse(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode current = new ListNode();
+        ListNode sentinelNode = current;
+        if (l1.val <= l2.val) {
+            current.next = l1;
+            current = current.next;
+            current.next = reverse(l1.next, l2);
+        } else {
+            current.next = l2;
+            current = current.next;
+            current.next = reverse(l1, l2.next);
+        }
+        System.out.println("======");
         return sentinelNode.next;
     }
 }
