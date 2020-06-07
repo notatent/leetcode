@@ -9,6 +9,7 @@ leetcode record
 4|
 5|
 20|有效括号（栈）||||
+21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|Easy|[Java](src/main/java/com/mean/world/a021_merge2SortedLists/Solution.java)|17.35%|49.64%|2020-06-07|
 24|链表两两反转||||
 25|K个一组翻转链表||||
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|[Java](src/main/java/com/mean/world/a141_linkedListCycle/Solution.java)|19.47%|5.71%|2020-06-04|
