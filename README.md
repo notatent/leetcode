@@ -18,6 +18,7 @@ leetcode record
 239|滑动窗口最大值||||
 242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Java](src/main/java/com/mean/world/a242_validAnagram/Solution.java)|72.37%|17.42%|2020-05-28|
 739|每日温度（数组＋栈）
+876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|[Java](src/main/java/com/mean/world/a876_middleOfTheLinkedList/Solution.java)|100.00%|11.75%|2020-06-10|
 
 
 
