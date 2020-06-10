@@ -5,10 +5,44 @@ package com.mean.world.a876_middleOfTheLinkedList;
  */
 public class Solution {
 
-    public ListNode middleNode(ListNode head) {
-        return twoPointers(head);
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5/*, new ListNode(6)*/)))));
+        Solution solution = new Solution();
+        ListNode listNode = solution.middleNode(l1);
+        while (listNode != null) {
+            System.out.println(listNode.val);
+            listNode = listNode.next;
+        }
     }
 
+    public ListNode middleNode(ListNode head) {
+        //return usingArray(head);
+        return optimize2Pointers(head);
+        //return twoPointers(head);
+    }
+
+    /**
+     * time complexity O(N)
+     * space complexity O(N)
+     */
+    private ListNode usingArray(ListNode head) {
+        // return array[array.length/2]
+        return null;
+    }
+
+    private ListNode optimize2Pointers(ListNode head) {
+        ListNode slow = head, fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    /**
+     * time complexity O(N)
+     * space complexity O(1)
+     */
     private ListNode twoPointers(ListNode head) {
         if (head == null) return head;
         ListNode faster = head;
@@ -25,6 +59,7 @@ public class Solution {
         }
         return mid;
     }
+
 }
 
 class ListNode {
