@@ -8,8 +8,8 @@ leetcode record
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|[Java](src/main/java/com/mean/world/a003_lengthOfLongestSubstring/Solution.java)|66.08%|96.23%|2019-11-04|
 4|
 5|
-19|[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Java](src/main/java/com/mean/world/a021_merge2SortedLists/Solution.java)|100.00%|79.42%%|2020-06-09|
-20|有效括号（栈）||||
+19|[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Java](src/main/java/com/mean/world/a021_merge2SortedLists/Solution.java)|100.00%|79.42%|2020-06-09|
+20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|Easy|[Java](src/main/java/com/mean/world/a020_validParentheses/Solution.java)|19.45%|10.78%|2020-06-13|
 21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|Easy|[Java](src/main/java/com/mean/world/a021_merge2SortedLists/Solution.java)|100.00%|76.07%|2020-06-07|
 24|链表两两反转||||
 25|K个一组翻转链表||||
