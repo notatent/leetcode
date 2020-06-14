@@ -5,6 +5,23 @@ import java.util.Stack;
 class Solution {
     public boolean isValid(String s) {
         return viaStack(s);
+//        return replacePair(s);
+    }
+
+    /**
+     * Runtime: 70 ms, faster than 5.70% of Java online submissions for Valid Parentheses.
+     * Memory Usage: 51.8 MB, less than 5.04% of Java online submissions for Valid Parentheses.
+     */
+    private boolean replacePair(String target){
+        if(target.equals("")) return true;
+        String tmp = target;
+        while(tmp.contains("()") || tmp.contains("[]") || tmp.contains("{}")){
+            tmp = tmp.replace("()","");
+            tmp = tmp.replace("[]","");
+            tmp = tmp.replace("{}","");
+        }
+        if(tmp == "") return true;
+        return false;
     }
 
     private boolean viaStack(String target){
