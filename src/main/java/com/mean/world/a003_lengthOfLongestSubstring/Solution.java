@@ -8,7 +8,10 @@ import java.util.List;
  */
 class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().lengthOfLongestSubstring("pwwkew"));
+        //System.out.println(new Solution().lengthOfLongestSubstring("pwwkew"));
+        //System.out.println(new Solution().lengthOfLongestSubstring_200929("pwwkew"));
+        System.out.println(new Solution().optimizeLengthOfLongestSubstring("abcabcbb"));
+        //System.out.println(new Solution().lengthOfLongestSubstring_200929("au"));
     }
 
     public int lengthOfLongestSubstring(String s) {
@@ -36,24 +39,39 @@ class Solution {
         }
         return length > longest ? length : longest;
     }
+
+
+    public int lengthOfLongestSubstring_200929(String s) {
+        if (s == null || s.length() == 0) return 0;
+        List<Character> longest = new ArrayList<>();
+        int max = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (longest.contains(s.charAt(i))) {
+                int index = longest.indexOf(s.charAt(i));
+                for (int j = 0; j <= index; j++) {
+                    longest.remove(0);
+                }
+            }
+            longest.add(s.charAt(i));
+            if (longest.size() > max) max = longest.size();
+        }
+        return max;
+    }
+
+    /**
+     * solution refer: lt3.png
+     */
+    public int optimizeLengthOfLongestSubstring(String s) {
+        int n = s.length(), ans = 0;
+        int[] index = new int[128]; // current index of character
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            i = Math.max(index[s.charAt(j)], i);
+            index[s.charAt(j)] = j + 1;
+            ans = Math.max(ans, j - i + 1);
+        }
+        return ans;
+    }
+
 }
 
-//public class MainClass {
-//    public static String stringToString(String input) {
-//        return JsonArray.readFrom("[" + input + "]").get(0).asString();
-//    }
-//
-//    public static void main(String[] args) throws IOException {
-//        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-//        String line;
-//        while ((line = in.readLine()) != null) {
-//            String s = stringToString(line);
-//
-//            int ret = new Solution().lengthOfLongestSubstring(s);
-//
-//            String out = String.valueOf(ret);
-//
-//            System.out.print(out);
-//        }
-//    }
-//}
