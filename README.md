@@ -16,7 +16,7 @@ leetcode record
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|[Java](src/main/java/com/mean/world/a141_linkedListCycle/Solution.java)|19.47%|5.71%|2020-06-04|
 147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|Easy|[Java](src/main/java/com/mean/world/a141_linkedListCycle/Solution.java)|%|%|2020-|
 150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|Medium|[Java](src/main/java/com/mean/world/a150_evaluateReversePolishNotation/Solution.java)|28.30%|5.02%|2020-06-15|
-169|[Majority Element](https://leetcode.com/problems/majority-element/)|Easy|[Java](src/main/java/com/mean/world/a169_majorityElement/Solution.java)|7 ms 46.08%|44.2 MB 5.22%|2020-10-12|
+169|[Majority Element](https://leetcode.com/problems/majority-element/)|Easy|[Java](src/main/java/com/mean/world/a169_majorityElement/Solution.java)|1 ms 99.90%|42 MB 5.22%|2020-10-12|
 206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|Easy|[Java](src/main/java/com/mean/world/a206_reverseLinkedList/Solution.java)|100.00%|5.04%|2020-06-02|
 239|滑动窗口最大值||||
 242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Java](src/main/java/com/mean/world/a242_validAnagram/Solution.java)|72.37%|17.42%|2020-05-28|
