@@ -1,15 +1,13 @@
 package com.mean.world.a015_3Sum;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by tent on 2020-10-12 15:51
  */
 public class Solution {
 
-    public List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> twoPointer(int[] nums) {
         List<List<Integer>> res = new ArrayList();
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 2; i++) {
@@ -33,6 +31,26 @@ public class Solution {
                     k--;
                 }
 
+            }
+        }
+        return res;
+    }
+
+    public List<List<Integer>> hashingBased(int[] nums) {
+        List<List<Integer>> res = new ArrayList();
+        int sum = 0;
+        for (int i = 0; i < nums.length - 2; i++) {
+            int curr_sum = sum - nums[i];
+            Set<Integer> m = new TreeSet();
+            for (int j = i + 1; j < nums.length; j++) {
+                if (m.contains(curr_sum - nums[j])) {
+                    /*double max = Math.max(x, Math.max(y, z));
+                    double min = Math.min(x, Math.min(y, z));
+                    double mid = x + y + z - max - min;*/
+                    // FIXME duplicate List<Integer>
+                    res.add(Arrays.asList(nums[i], nums[j], curr_sum - nums[j]));
+                }
+                m.add(nums[j]);
             }
         }
         return res;
