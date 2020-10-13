@@ -8,6 +8,7 @@ leetcode record
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|Medium|[Java](src/main/java/com/mean/world/a003_lengthOfLongestSubstring/Solution.java)|3ms 96.82%|38.8M 88.36%|2020-10-05|
 4|
 5|
+15|[3Sum](https://leetcode.com/problems/3sum/submissions/)|Medium|[Java](src/main/java/com/mean/world/a015_3Sum/Solution.java)|19 ms 79.69%|42.6 MB 5.40%|2020-10-13|
 19|[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Java](src/main/java/com/mean/world/a021_merge2SortedLists/Solution.java)|100.00%|79.42%|2020-06-09|
 20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|Easy|[Java](src/main/java/com/mean/world/a020_validParentheses/Solution.java)|19.45%|10.78%|2020-06-13|
 21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|Easy|[Java](src/main/java/com/mean/world/a021_merge2SortedLists/Solution.java)|100.00%|76.07%|2020-06-07|

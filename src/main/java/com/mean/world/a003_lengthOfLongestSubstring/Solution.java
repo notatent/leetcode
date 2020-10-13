@@ -9,9 +9,10 @@ import java.util.List;
 class Solution {
     public static void main(String[] args) {
         //System.out.println(new Solution().lengthOfLongestSubstring("pwwkew"));
-        //System.out.println(new Solution().lengthOfLongestSubstring_200929("pwwkew"));
-        System.out.println(new Solution().optimizeLengthOfLongestSubstring("abcabcbb"));
-        //System.out.println(new Solution().lengthOfLongestSubstring_200929("au"));
+        //System.out.println(new Solution().lengthOfLongestSubstring_2020929("pwwkew"));
+        //System.out.println(new Solution().optimizeLengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new Solution().optimizeLengthOfLongestSubstring("pwwkew"));
+        //System.out.println(new Solution().lengthOfLongestSubstring_2020929("au"));
     }
 
     public int lengthOfLongestSubstring(String s) {
@@ -41,7 +42,7 @@ class Solution {
     }
 
 
-    public int lengthOfLongestSubstring_200929(String s) {
+    public int lengthOfLongestSubstring_2020929(String s) {
         if (s == null || s.length() == 0) return 0;
         List<Character> longest = new ArrayList<>();
         int max = 0;
