@@ -24,7 +24,7 @@ leetcode record
 739|每日温度（数组＋栈）
 622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|Medium|[Java](src/main/java/com/mean/world/a622_designCircularQueue/MyCircularQueue.java)|92.49%|45.60%|2020-06-22|
 876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|[Java](src/main/java/com/mean/world/a876_middleOfTheLinkedList/Solution.java)|100.00%|11.75%|2020-06-10|
-1188|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|Medium|[Java](src/main/java/com/mean/world/)|premium|premium|2020-06-22|
+1188|[Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue/)|Medium|[Java](src/main/java/com/mean/world/a1188_designBoundedBlockingQueue/Solution.java)|premium|premium|2020-12-22|
 1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/)|Medium|[Java](src/main/java/com/mean/world/a1472_designBrowserHistory/Solution.java)|Failed at 69/71|-|2020-06-21|
 
 
